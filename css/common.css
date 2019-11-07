@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
 body{
+    color: white;
     background-color: #222;
+}
+a{
+    color: #35a;
 }

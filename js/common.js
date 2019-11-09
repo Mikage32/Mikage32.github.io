@@ -1,4 +1,4 @@
-﻿/* scroll using jQery */
+﻿/* scroll animation using jQery */
 $('a[href^="#"]').click(function () {
     var speed = 400;
     var href = $(this).attr("href");

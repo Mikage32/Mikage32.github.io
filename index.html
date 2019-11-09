@@ -1,17 +1,82 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <link href="https://Mikage32.github.io/css/common.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>
-        <header class="top">
-            <ul>
-                <li><a href="https://Mikage32.github.io/index.html">Home</a></li>
+﻿<!DOCTYPE html>
 
+<html lang="ja">
+	<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<title>Mikage32.github.io</title>
+        <link href="css/icon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,900">
+        <link href="css/common.css" rel="stylesheet" />
+        <link href="css/index.css" rel="stylesheet" />
+	</head>
+
+    <body>
+        <header>
+            <a href="index.html">
+                <div class="wraphead">
+                    <h1><img src="svg/record_icon.svg" alt="" /></h1>
+                    <h2>Mikage32@GitHub</h2>
+                </div>
+            </a>
+
+            <ul class="menuBar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="#top">PAGETOP</a></li>
             </ul>
         </header>
-        <h1>Hello Github Pages!</h1>
-        <p>Hello. This is Mikage32's pages. Please check my <a href="https://www.github.com/Mikage32" target="_blank" rel="noopener">repositry.</a></p>
+
+        <div class="catch" id="top">
+            <img alt="topImg" src="css/images/back.jpg" />
+            <p class="catch">SOUNDS&ensp;WITH&ensp;CONPUTER</p>
+        </div>
+
+        <div class="root">
+            <main>
+                <h1>自己紹介</h1>
+                <p>
+                    こんにちは。趣味程度にコンピュータの勉強をしている高校生です。
+                    音楽も趣味にしていて、FFTWを使った音響処理のプログラムを書いて遊んだりしています。
+                    現在GitHubは競技プログラミング用の自作コード置き場として使っています。
+                </p>
+                <p>
+                    プログラミング言語はC++, Java, Pythonが少し使えます。
+                    他にも、最近アセンブリの勉強を始めました。
+                    情報処理技術者試験の試験区分うち、FE, AP, SCに合格しました。
+                </p>
+            </main>
+
+            <section id="links">
+                <h2>Links</h2>
+
+                <ul class="linkList">
+                    <li><a href="https://github.com/Mikage32" target="_blank" rel="noopener"><div id="link_github">GitHub</div></a></li>
+                    <li><a href="https://atcoder.jp/user/Mikage32" target="_blank" rel="noopener"><div id="link_atcoder">AtCoder</div></a></li>
+                </ul>
+            </section>
+
+            <section id="recent">
+                <h2>最近制作したもの</h2>
+                <p>特にありません。</p>
+                <ul class="product">
+                    
+                </ul>
+            </section>
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/common.js"></script>
     </body>
 </html>
+
+<footer>
+    <ul class="shareList">
+        <li class="shareList__item"><a class="shareList__link icon-twitter" href="https://twitter.com/intent/tweet?url=https://mikage32.github.io" target="_blank" title="Twitter"></a></li>
+        <li class="shareList__item"><a class="shareList__link icon-facebook" href="https://facebook.com/sharer/sharer.php?u=https://mikage32.github.io" target="_blank" title="Facebook"></a></li>
+        <li class="shareList__item"><a class="shareList__link icon-line" href="https://timeline.line.me/social-plugin/share?url=?https://mikage32.github.io" target="_blank" title="LINE"></a></li>
+    </ul>
+    <address>mail:&ensp;Mikage32@outlook.jp</address>
+    <p>&copy;2019&ensp;Mikage32</p>
+</footer>
